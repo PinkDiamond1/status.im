@@ -16,6 +16,9 @@ cn:
 ko:
   short: ko
   long: 한국어
+hi:
+  short: hi
+  long: हिन्दी
 ja:
   short: ja
   long: 日本語
