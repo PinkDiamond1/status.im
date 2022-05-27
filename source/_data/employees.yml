@@ -469,12 +469,6 @@ employees:
     customStatusPublicKey: '0x045b95150ccef4986ec2297b8910cecc2a2164bcd0760f322dec22413e6c9a8ed7e1035534a43e811317d78911d38e03575a6ac42e8df81643279bf5c491cccce0'
     customGitHubusername: catiasousa
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=b082719888486da8896174f55ff91ca8'
-  - id: '244'
-    firstName: Abhijeeth
-    workEmail: abhijeeth@status.im
-    customStatusPublicKey: '0x04c811515c052650481583a17bfb4ac3f25b9bece149afdfb06158943d1db1f6f80fd0f1caf2985b963aa9477fdd92a844b2d180b4ae8df36f0600a29397b28684'
-    customGitHubusername: abhi-status
-    photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=d6cb9b12c49a91f061b4fb50663a2f9e'
   - id: '247'
     firstName: Noelia
     workEmail: noelia@status.im
@@ -484,7 +478,7 @@ employees:
   - id: '248'
     firstName: Jorge
     workEmail: jorge@status.im
-    customStatusPublicKey: '@campo'
+    customStatusPublicKey: campo
     customGitHubusername: jorge-campo
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=461fc11e02b1aabe33d11b94d6e8b174'
   - id: '249'
@@ -565,12 +559,6 @@ employees:
     customStatusPublicKey: '0x04d7c4b958412b599b1382086739be88027597689e84edf8fa094f9c3e99217805ee8c4e7be6ee867512f93f6c3b4d51fd319bbe023f698fc03ed657e68df0b0d3'
     customGitHubusername: MayitaK
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=dc96d0693079a1dca3808818689b8723'
-  - id: '267'
-    firstName: Jeannie
-    workEmail: jeannie@status.im
-    customStatusPublicKey: '0x0455e82b50edb9bfb611e207037875158d8ec9af32ed7eed70481b381e59ca32eb62d21a006bbc837ffcb91367b36b2780aa37ecd6351a6c692a56deaaf9297acb'
-    customGitHubusername: jeanniesarah
-    photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=72ebd2b76810e842ff143dd3a21b590d'
   - id: '268'
     firstName: Pavel
     workEmail: pavel@status.im
@@ -677,7 +665,7 @@ employees:
     firstName: Igor
     workEmail: sirotin@status.im
     customStatusPublicKey: null
-    customGitHubusername: null
+    customGitHubusername: igor-sirotin
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=d4bc7904bd45fa2de02b20a8e9278db7'
   - id: '286'
     firstName: Mario
