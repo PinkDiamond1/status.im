@@ -673,6 +673,12 @@ employees:
     customStatusPublicKey: null
     customGitHubusername: null
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=65509da4ce9c8a1fc11b4e9fd89e582f'
+  - id: '287'
+    firstName: Alexander
+    workEmail: alexander.mozeika@status.im
+    customStatusPublicKey: AlexanderM#3666
+    customGitHubusername: AMozeika
+    photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=60f4e54f3b5ccc9c5296e2f20774cbbc'
   - id: '288'
     firstName: Hicham
     workEmail: hicham@status.im
