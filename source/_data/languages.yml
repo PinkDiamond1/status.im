@@ -52,3 +52,6 @@ el:
 pl:
   short: pl
   long: Polski
+bn:
+  short: bn
+  long: Bengali
