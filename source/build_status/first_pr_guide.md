@@ -21,15 +21,15 @@ This will get you up and running on your first PR.  It assumes you are working o
 Fork the repository on [Github](https://www.github.com) and then clone the repo.
 
 ```bash
-git clone https://github.com/your_user_name/status-react.git
-cd status-react
-git remote add upstream https://github.com/status-react/status-react.git
+git clone https://github.com/your_user_name/status-mobile.git
+cd status-mobile
+git remote add upstream https://github.com/status-im/status-mobile.git
 git fetch upstream
 ```
 
 ### 2. Create your branch
 
-Create your branch off the `develop` branch of the `status-react` repo.
+Create your branch off the `develop` branch of the `status-mobile` repo.
 
 ```bash
 git checkout -b my_example_status_branch -t upstream/develop
@@ -46,7 +46,7 @@ make shell TARGET=android
 Follow the more detailed walkthroughs in the below links to get up and running with the end-to-end build process for each environment.
 
 - [General build walthrough](./index.html)
-- [iOS](./status_react_quickstart.html)
+- [iOS](./status_mobile_quickstart.html)
 - [Desktop](./intro_desktop.html)
 
 ### 4. Code your changes
@@ -65,7 +65,7 @@ In a second terminal window, run the tests with `sudo make test-auto`.  This wil
 
 ### 6. Rebase and submit your PR
 
-Once all the tests pass, rebase against the  `status-react/develop` branch.
+Once all the tests pass, rebase against the  `status-mobile/develop` branch.
 
 ```bash
 git fetch upstream && rebase upstream/develop
@@ -78,7 +78,7 @@ git add .
 git commit -m "My code works!"
 ```
 
-Push your branch to Github with `git push`, and then submit your PR on the `status-react/develop` branch.  Fill out the form following the PR template.
+Push your branch to Github with `git push`, and then submit your PR on the `status-mobile/develop` branch.  Fill out the form following the PR template.
 
 Tip: If you're not done with your PR after your initial commit, make sure you put WIP in the title upon initial submission so the Status_Bot knows you still have work to do.
 

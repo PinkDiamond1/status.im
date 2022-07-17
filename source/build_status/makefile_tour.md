@@ -11,12 +11,12 @@ Below are some of the more useful Makefile targets that will help you with the d
 
 # Development Shell
 
-`make shell` is the most fundamental target in the Makefile.  At its core, it will either build or launch a [Nix](https://github.com/status-im/status-react/tree/develop/nix) shell preconfigured to build Status.  If this is your first time building status, this is where you'll start.  Run `make shell TARGET={os_name}` where `os_name` is `android`/`ios`/`linux`/`macos`/`windows` and the Makefile will build out the Nix environment and get you ready to start coding.  Now, go get a cup of coffee.  It'll take a while to finish this process.
+`make shell` is the most fundamental target in the Makefile.  At its core, it will either build or launch a [Nix](https://github.com/status-im/status-mobile/tree/develop/nix) shell preconfigured to build Status.  If this is your first time building status, this is where you'll start.  Run `make shell TARGET={os_name}` where `os_name` is `android`/`ios`/`linux`/`macos`/`windows` and the Makefile will build out the Nix environment and get you ready to start coding.  Now, go get a cup of coffee.  It'll take a while to finish this process.
 
-Valid target OS options are available in the [`nix/platforms.nix`](https://github.com/status-im/status-react/blob/develop/nix/platform.nix) file.
+Valid target OS options are available in the [`nix/platforms.nix`](https://github.com/status-im/status-mobile/blob/develop/nix/platform.nix) file.
 
 Note 1: After you've run this command once, it will just enter the already configured Nix shell and allow you to run commands within that environment like `lein cljfmt fix` (which runs the linter).
-Note 2: Note: Theis target will not work on MacOS Catalina. Please follow [these instructions for a workaround](https://github.com/status-im/status-react/tree/develop/nix#macos-1015-catalina).
+Note 2: Note: Theis target will not work on MacOS Catalina. Please follow [these instructions for a workaround](https://github.com/status-im/status-mobile/tree/develop/nix#macos-1015-catalina).
 
 # Development Targets
 
@@ -72,7 +72,7 @@ There are three targets related to testing.
 
 ## Nix Targets
 
-Note: These targets will not work on [MacOS Catalina](https://github.com/status-im/status-react/tree/develop/nix#macos-1015-catalina).
+Note: These targets will not work on [MacOS Catalina](https://github.com/status-im/status-mobile/tree/develop/nix#macos-1015-catalina).
 
 * `make nix-purge` - Sometimes, your dev environment gets hosed and you just need to start over.  This target will completely purge the entire Nix build environment.  If you run this command, you will need to run `make shell TARGET={preferred OS}` before you can continue developing.
 * `make nix-clean` - Cleans up all the Status build artifacts.  This isn't as extreme as `make nix-purge` but will still give you a fresh start on building the app if something goes awry in your dev environment.

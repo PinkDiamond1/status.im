@@ -21,8 +21,8 @@ docs:
       children:
         - title: Build Status-Go
           path: status_go.html
-        - title: Status-React Quick Start
-          path: status_react_quickstart.html
+        - title: Status-Mobile Quick Start
+          path: status_mobile_quickstart.html
 
     - title: Other Guides
       path: others

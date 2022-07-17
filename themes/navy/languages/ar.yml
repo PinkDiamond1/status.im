@@ -134,16 +134,16 @@ site:
         title: البدء
         description: 'مشروعنا مفتوح المصدر'
         link: 'دليل المساهمين'
-        status-react:
-          title: status-react
+        status-mobile:
+          title: status-mobile
           description: 'مكتوب بلغة Clojure - هذا هو المكان الذي نتعامل فيه مع التفاعلات بين Waku والتطبيق ؛ بين المحفظة والمستخدم وأي تطبيق موزع (DApp) يريدون الوصول إليه ؛ وحيث يعيش منطق واجهة المستخدم.'
           link: 'عرض المستودع'
         status-go:
           title: status-go
           description: 'مكتوب في Go - هذا هو المكان الذي يعمل فيه كل من block Block المنطق ، والمعاملات ، والعميل الخفيف.'
           link: 'عرض المستودع'
-        open-issues-status-react:
-          title: 'المشاكل المفتوحة Status-React '
+        open-issues-status-mobile:
+          title: 'المشاكل المفتوحة Status-Mobile '
           link: 'عرض كافة المشكلات المفتوحة'
         open-issues-status-go:
           title: 'فتح القضايا Status-Go '
@@ -570,8 +570,8 @@ site:
         description: 'محفظة صلبة آمنة، غير تلامسية، مفتوحة المصدر'
     pinned-repositories:
       title: 'مستودعات مثبتة'
-      status-react:
-        title: status-react
+      status-mobile:
+        title: status-mobile
         description: 'A free (libre) open source, mobile OS for Ethereum.'
       status-go:
         title: status-go

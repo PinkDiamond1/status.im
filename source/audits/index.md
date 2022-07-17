@@ -44,6 +44,6 @@ There are no current ongoing security audits.
 - [Blog post](https://blog.sigmaprime.io/status-ens-review.html)
 
 ### Deja Vu Beta Audit
-- May 07, 2018 - [Status-go](https://github.com/status-im/status-go) and [Status-react](https://github.com/status-im/status-react) repos with Deja Vu 
+- May 07, 2018 - [Status-go](https://github.com/status-im/status-go) and [Status-Mobile](https://github.com/status-im/status-mobile) repos with Deja Vu 
 - [Report](https://drive.google.com/file/d/1wB5pGPaNsQwq2udV7NmHkLuW-2JCMbnV/view) 
 - [Blog post](https://blog.status.im/status-deja-vu-security-audit-final-report-5b6eda5a683a)

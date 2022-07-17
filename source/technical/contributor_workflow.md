@@ -18,8 +18,8 @@ Status is ambitious - we have a mobile app; a desktop app; we work deep down in 
 
 *   If you know **Go**, you can contribute to [status-go](https://github.com/status-im/status-go/). This is where all of the blockchain logic, transactions, and light client work we do lives. 
 *   If you know **Solidity** or **Vyper**, you can contribute to [status-contracts](https://github.com/status-im/ens-usernames) or directly to [Vyper](https://github.com/ethereum/vyper/) itself. ENS usernames, identity, voting, tribute to talk, DApp curation and a bunch of other use cases await intrepid smart contract engineers.
-*   If you know **Clojure**, you can contribute to [status-react](https://github.com/status-im/status-react/). This is where we handle interactions between Whisper and the app; between the wallet, the user and any Distributed Application (DApp) that they want to access; and where the UI logic lives. The clean separation between data and functions offered in Clojure allows us to think broadly about what we can really build using decentralized networks and the right kinds of tools. If you're a [Clojurist](http://www.braveclojure.com/introduction/), you know why ;)
-*   If you know **Clojure** and some **React Native QT**, you can contribute to [status-desktop](https://github.com/status-im/react-native-desktop), soon to be a part of the status-react repo. Desktop is one of our most exciting projects, because it will allow us to decentralize a lot of our current infrastructure and incentivise our users to run large parts of the networks from their own machines. This presents particularly interesting technical and cryptoeconomic problems and opportunities.
+*   If you know **Clojure**, you can contribute to [status-mobile](https://github.com/status-im/status-mobile/). This is where we handle interactions between Whisper and the app; between the wallet, the user and any Distributed Application (DApp) that they want to access; and where the UI logic lives. The clean separation between data and functions offered in Clojure allows us to think broadly about what we can really build using decentralized networks and the right kinds of tools. If you're a [Clojurist](http://www.braveclojure.com/introduction/), you know why ;)
+*   If you know **Clojure** and some **React Native QT**, you can contribute to [status-desktop](https://github.com/status-im/react-native-desktop), soon to be a part of the status-mobile repo. Desktop is one of our most exciting projects, because it will allow us to decentralize a lot of our current infrastructure and incentivise our users to run large parts of the networks from their own machines. This presents particularly interesting technical and cryptoeconomic problems and opportunities.
 *   If you have know **Node** or **JavaScript**, you can contribute to [Embark](https://github.com/embark-framework/embark/). Embark is the most cutting-edge framework for developing DApps that currently exists. Contributing here means [getting to work](https://gitter.im/embark-framework/Lobby) with some of the most passionate, productive and talented engineers building developer tools for all of Ethereum.
 *   If you are that very rare breed of human known as a **Nim** developer, you can contribute to the [status-nimbus](https://nimbus.team/) repositories. Alternatively, join the Nimbus team in the [Nimbus Discord](https://discord.gg/XRxWahP) server.
 *   If you have a background in **devops**, especially distributed systems, you can contribute to [status-infrastructure](https://github.com/status-im?utf8=%E2%9C%93&q=infra&type=&language=). The challenges of keep nodes synced to the network at all times are not to be underestimated, and this is potentially some of the most interesting work in distributed systems running in production anywhere in the world.
@@ -49,15 +49,15 @@ Simply go to [Gitcoin](https://gitcoin.co/explorer?network=mainnet&keywords=stat
 
 All issues, feature requests and bugs are labelled in the same way across Status' repositories. This means if you set up a filter on the labels to look for `good-first-issue`s - which are most often easiest when they are simple `bug`s with `low-priority` - you can find some really good places to start.
 
-Follow [this link](https://github.com/status-im/status-react/issues?utf8=%E2%9C%93&q=is%3Aopen+label%3A%22good+first+issue%22+label%3A%22bug%22+label%3A%22low-priority%22+) to see how it is done.
+Follow [this link](https://github.com/status-im/status-mobile/issues?utf8=%E2%9C%93&q=is%3Aopen+label%3A%22good+first+issue%22+label%3A%22bug%22+label%3A%22low-priority%22+) to see how it is done.
 
 **Build the Stuff You Need Most**
 
 If there's something you'd like to see included or fixed properly in Status, Desktop, or your other favorite Status project, starting with whatever irritates you, or the thing you most want to see in Status can be a great method:
 
-Search our repository for [relevant keywords](https://github.com/status-im/status-react/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+keyboard+android). The link provided demonstrates how to do so.
+Search our repository for [relevant keywords](https://github.com/status-im/status-mobile/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+keyboard+android). The link provided demonstrates how to do so.
 
-Either comment on the issue related to your pet peeve, or create a new issue and ask for the info you need to start working on it. Best is to look at our [most active contributors](https://github.com/status-im/status-react/graphs/contributors), and tag one of them for more details. Alternatively, just ask in the [#developers channel in Status](https://join.status.im/chat/public/status-core-devs).
+Either comment on the issue related to your pet peeve, or create a new issue and ask for the info you need to start working on it. Best is to look at our [most active contributors](https://github.com/status-im/status-mobile/graphs/contributors), and tag one of them for more details. Alternatively, just ask in the [#developers channel in Status](https://join.status.im/chat/public/status-core-devs).
 
 Bugs or features listed as 'Assigned' are not usually a good place to start, unless you're sure you have something worthy to contribute. Even with no assignee, it is polite to check if someone has recently commented that they're looking at fixing the issue.
 
@@ -75,7 +75,7 @@ Pull requests should be linked to the issues they fix and the branches they come
 **PR title**: same as the commit name  
 **PR comment**: starts with `Fixes #123` for easier issue navigation
 
-Once submitted, PRs are generally tracked through GitHub Project Boards. You can, for instance, find the status-react kanban board we maintain [here](https://github.com/status-im/status-react/projects/7). This allows us to track each PR through the lifecycle of contributor>review->to test->in testing->merge which we follow.
+Once submitted, PRs are generally tracked through GitHub Project Boards. You can, for instance, find the status-mobile kanban board we maintain [here](https://github.com/status-im/status-mobile/projects/7). This allows us to track each PR through the lifecycle of contributor>review->to test->in testing->merge which we follow.
 
 Otherwise, you can:
 

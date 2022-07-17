@@ -134,16 +134,16 @@ site:
         title: 'Per iniziare'
         description: 'Il nostro progetto open source'
         link: 'Guida per i contributori'
-        status-react:
-          title: Status-React
+        status-mobile:
+          title: Status-Mobile
           description: 'Scritto in Clojure - qui è dove gestiamo le interazioni tra Waku e l''app; tra il portafoglio, l''utente e qualsiasi applicazione decentralizzata (DApp) a cui desiderano accedere; e dove risiede la logica dell''interfaccia utente.'
           link: 'Visualizza repository'
         status-go:
           title: Status-Go
           description: 'Scritto in Go - questo è dove risiede tutta la logica blockchain, le transazioni, e il lavoro sul light client che facciamo.'
           link: 'Visualizza repository'
-        open-issues-status-react:
-          title: 'Open Issues Status-React'
+        open-issues-status-mobile:
+          title: 'Open Issues Status-Mobile'
           link: 'Visualizza tutte le questioni aperte'
         open-issues-status-go:
           title: 'Open Issues Status-Go'
@@ -335,7 +335,7 @@ site:
           blog: 'blog post'
         dejavu:
           title: 'Il Security Audit su Status di Deja Vu'
-          commit: '07 maggio 2018 - Repository Status-go e Status-react con Deja Vu'
+          commit: '07 maggio 2018 - Repository Status-go e Status-Mobile con Deja Vu'
           report: report
           blog: 'blog post'
       content-11:
@@ -570,8 +570,8 @@ site:
         description: 'Sicuro, Contactless, Open Source Hardwallet'
     pinned-repositories:
       title: 'Repository preferiti'
-      status-react:
-        title: status-react
+      status-mobile:
+        title: status-mobile
         description: 'Un sistema operativo mobile (open source) gratuito per Ethereum.'
       status-go:
         title: status-go

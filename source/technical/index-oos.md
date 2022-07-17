@@ -27,11 +27,11 @@ People everywhere need to be able to connect, transact, explore, and create valu
 
 We give you that broad introduction to our goals here in order to prepare you for some of the rough edges you might run into when exploring web3 and the tooling that currently exists...
 
-Our code lives in two main repos: [status-react](https://github.com/status-im/status-react) and [status-go](https://github.com/status-im/status-go). 
+Our code lives in two main repos: [status-mobile](https://github.com/status-im/status-mobile) and [status-go](https://github.com/status-im/status-go). 
 
-Status-react is where most of what might traditionally be called the "frontend" logic sits (everything to do with UI components and interactions, chats, views etc.) and status-go is where all the heavier blockchain logic sits. Status-go can be compiled as a stand alone library, and gets included as a static dependency in status-react at build time.
+Status-Mobile is where most of what might traditionally be called the "frontend" logic sits (everything to do with UI components and interactions, chats, views etc.) and status-go is where all the heavier blockchain logic sits. Status-go can be compiled as a stand alone library, and gets included as a static dependency in status-mobile at build time.
 
-Status-react is actually written in Clojure, which is a Lisp-like language that can be compiled down to React Native, so that we only have to maintain one codebase for Android, iOS and our desktop app.
+Status-Mobile is actually written in Clojure, which is a Lisp-like language that can be compiled down to React Native, so that we only have to maintain one codebase for Android, iOS and our desktop app.
 
 # Why Clojure?
 

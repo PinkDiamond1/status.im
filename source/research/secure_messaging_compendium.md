@@ -27,7 +27,7 @@ In general, some of the links are dated 2015 whereas the protocol has moved to v
 * [Call notes, Vlad/Status](https://docs.google.com/document/d/1RfGIYpZ8xOJKBD0w1F-DtwCKTA43O4zyWhxFtLtdLNc/edit) 
 * [Status whisper research](https://wiki.status.im/Research_Whisper_Status) - V5-V6 difference, status implementation notes and what status needs the procotocol for
 * [Open issues brainstorming](https://docs.google.com/document/d/1Cw3LA1r6ItLDp8bMFvIxQMxYjnzEVOcHuZJz8gRa7HE/edit#) - round-table on what whisper pain points are held with our Whisper devs (2018-04-18)
-* [Messsage spec, clojure](https://github.com/status-im/status-react/blob/develop/src/status_im/transport/message/transit.cljs)
+* [Messsage spec, clojure](https://github.com/status-im/status-mobile/blob/develop/src/status_im/transport/message/transit.cljs)
 * [Protocol background work doc](https://docs.google.com/document/d/1Qh2h07T_qepzEJ7IytmxwIdQAOsGHrvhXwZxuZtbwgc/edit)
 * [Status wiki whisper docs, including V5/V6 comparison](https://wiki.status.im/index.php?title=Research_Whisper_Status)
 * [How-status-uses-whisper thread](https://status-im.slack.com/archives/C8QP8S5UH/p1523495849000201)

@@ -134,16 +134,16 @@ site:
         title: 开始
         description: 我们的开源项目
         link: 贡献者指南
-        status-react:
-          title: Status-react
+        status-mobile:
+          title: Status-Mobile
           description: 用Clojure编写-这是我们处理Waku与应用程序之间交互的语言；是钱包，用户和他们要访问的任何分布式应用程序（DApp）之间使用的语言；是UI逻辑所用的语言。
           link: 查看代码仓库
         status-go:
           title: Status-go
           description: 'Go语言主要用于编写 - 我们所有区块链逻辑，交易事务和轻客户端实现。'
           link: 查看代码仓库
-        open-issues-status-react:
-          title: Status-react未解决问题
+        open-issues-status-mobile:
+          title: Status-Mobile未解决问题
           link: 查看所有未解决的问题
         open-issues-status-go:
           title: Status-go未解决问题
@@ -335,7 +335,7 @@ site:
           blog: 博客文章
         dejavu:
           title: 'Deja Vu Beta审计'
-          commit: '2018年5月7日-使用Deja Vu的Status-go和 Status-react代码库'
+          commit: '2018年5月7日-使用Deja Vu的Status-go和 Status-Mobile代码库'
           report: 报告
           blog: 博客文章
       content-11:
@@ -570,8 +570,8 @@ site:
         description: 安全，非接触式，开源硬件钱包
     pinned-repositories:
       title: 置顶的存储库
-      status-react:
-        title: status-react
+      status-mobile:
+        title: status-mobile
         description: '以太坊网络的免费(libre) 开源的移动操作系统。'
       status-go:
         title: status-go

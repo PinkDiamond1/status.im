@@ -134,16 +134,16 @@ site:
         title: 開始使用
         description: 我們的開源項目
         link: 貢獻者指引
-        status-react:
-          title: Status-React
+        status-mobile:
+          title: Status-Mobile
           description: 以Clojure編寫－這是我們處理各種互動的地方，包括Waku與應用程式、錢包功能、使用者和其想要搜尋的DApp等，也是使用者介面邏輯所在的位置。
           link: 查看資料庫
         status-go:
           title: Status-Go
           description: 用Go語言編寫－這是我們實現所有區塊鏈邏輯、交易和輕量客戶端工作的地方。
           link: 查看資料庫
-        open-issues-status-react:
-          title: 'Status-React 未解決問題'
+        open-issues-status-mobile:
+          title: 'Status-Mobile 未解決問題'
           link: 查看所有未解決的問題
         open-issues-status-go:
           title: 'Status-Go 未解決問題'
@@ -335,7 +335,7 @@ site:
           blog: 部落格貼文
         dejavu:
           title: 'Deja Vu Beta審核'
-          commit: '2018年5月7日－Status-go和Status-react程式庫提交給Deja Vu審查'
+          commit: '2018年5月7日－Status-go和Status-Mobile程式庫提交給Deja Vu審查'
           report: 回報
           blog: 部落格貼文
       content-11:
@@ -570,8 +570,8 @@ site:
         description: 安全、感應式、開放原始碼的硬體錢包
     pinned-repositories:
       title: 釘選的程式庫
-      status-react:
-        title: status-react
+      status-mobile:
+        title: status-mobile
         description: 一個免費（自由）開放原始碼的以太幣行動操作系統
       status-go:
         title: status-go

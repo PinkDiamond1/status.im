@@ -23,5 +23,5 @@ We really are excited about being able to bake in these kind of conversational, 
 
 You'll find a list of default chats if you navigate to `Join a Chat` from the homescreen of Status. If you're as excited as we are about this notion of conversational spaces, then consider adding your DApp chat (which is simply an open topic on Whisper) to the default list so that new people see it immediately when downloading Status and figuring out which chats to join and take part in.
 
-All you need to is simply [edit this JSON file](https://github.com/status-im/status-react/blob/develop/resources/default_public_chats.json) and add the name of your chat. It really is as easy as that...
+All you need to is simply [edit this JSON file](https://github.com/status-im/status-mobile/blob/develop/resources/default_public_chats.json) and add the name of your chat. It really is as easy as that...
 

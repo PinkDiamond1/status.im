@@ -134,16 +134,16 @@ site:
         title: 시작하기
         description: '오픈소스 프로젝트'
         link: '참여자 가이드'
-        status-react:
-          title: Status-React
+        status-mobile:
+          title: Status-Mobile
           description: '와쿠(Waku)와 앱의 상호 작용, 지갑, 사용자 및 사용자가 액세스하고자 하는 모든 디앱(DApp) 간의 상호 작용 및 UI 로직은 Clojure로 작성되었습니다.'
           link: '리포지터리 보기'
         status-go:
           title: Status-Go
           description: '모든 블록체인 로직, 거래, 라이트 클라이언트 작업은 Go로 작성되었습니다.'
           link: '리포지터리 보기'
-        open-issues-status-react:
-          title: 'Status-React 오픈 이슈'
+        open-issues-status-mobile:
+          title: 'Status-Mobile 오픈 이슈'
           link: '모든 이슈 확인하기'
         open-issues-status-go:
           title: 'Status-Go 오픈 이슈'
@@ -335,7 +335,7 @@ site:
           blog: '블로그 포스트'
         dejavu:
           title: '데자뷰 베타 감사'
-          commit: '2018년 5월 07일 - 데자뷰의 Status-react 및 Status-go 감사'
+          commit: '2018년 5월 07일 - 데자뷰의 Status-Mobile 및 Status-go 감사'
           report: 리포트
           blog: '블로그 포스트'
       content-11:
@@ -570,8 +570,8 @@ site:
         description: '안전한, 비접촉식의 오픈소스 하드월렛'
     pinned-repositories:
       title: '즐겨 찾는 저장소(Repository)'
-      status-react:
-        title: status-react
+      status-mobile:
+        title: status-mobile
         description: '이더리움을 위한 오픈 소스 모바일 OS'
       status-go:
         title: status-go

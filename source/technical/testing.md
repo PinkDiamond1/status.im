@@ -35,7 +35,7 @@ If you don’t want to install the nightly apk build then you can help by findin
 
 ## Reproduce issues with "Help to reproduce" label and add extra info
 
-Sometimes we see issues or get bug reports but can't find the exact steps/model/condition to reproduce them. You can search in the Github repo by using the label ["Help to reproduce"](https://github.com/status-im/status-react/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+to+reproduce%22) to see the list and try to reproduce bugs. If you can then add as much info as possible: exact steps, logs, video, info about the phone model/OS, anything else that can help us to reproduce and then to fix a bug.
+Sometimes we see issues or get bug reports but can't find the exact steps/model/condition to reproduce them. You can search in the Github repo by using the label ["Help to reproduce"](https://github.com/status-im/status-mobile/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+to+reproduce%22) to see the list and try to reproduce bugs. If you can then add as much info as possible: exact steps, logs, video, info about the phone model/OS, anything else that can help us to reproduce and then to fix a bug.
 
 ## Test new features in PR builds
 
@@ -43,6 +43,6 @@ The team is working on providing an access to the PR builds to all community con
 
 ## Check the Python end-to-end test suite and create new tests
 
-Setup and run existing automated tests. Review the tests and create new ones in PR. You might also like to [create an issue in our Github repo](https://github.com/status-im/status-react/issues) entitled Autotests and explain which test you want to automate, so that the core test team can verify you have the correct assumptions about expected results.
+Setup and run existing automated tests. Review the tests and create new ones in PR. You might also like to [create an issue in our Github repo](https://github.com/status-im/status-mobile/issues) entitled Autotests and explain which test you want to automate, so that the core test team can verify you have the correct assumptions about expected results.
 
 

@@ -12,9 +12,9 @@ status-go is an underlying part of Status. It heavily depends on [go-ethereum](h
 
 The project output can take several forms:
 
-- A cross-platform static library providing Status bindings for go-ethereum, ready to be used in other Go projects, or in [status-react](https://github.com/status-im/status-react) through [cgo](https://golang.org/cmd/cgo/).
+- A cross-platform static library providing Status bindings for go-ethereum, ready to be used in other Go projects, or in [status-mobile](https://github.com/status-im/status-mobile) through [cgo](https://golang.org/cmd/cgo/).
 
-  **NOTE**: Normally `status-react` uses a precompiled version of `status-go`, but you can build a custom version of `status-go` to include in `status-react` (see how-to in [Build Status Yourself](https://status.im/technical/build_status/#Locally-built-status-go-dependency));
+  **NOTE**: Normally `status-mobile` uses a precompiled version of `status-go`, but you can build a custom version of `status-go` to include in `status-mobile` (see how-to in [Build Status Yourself](https://status.im/technical/build_status/#Locally-built-status-go-dependency));
 - A command line interface, which can be used to run a full, LES or ULC node, with support for Whisper mailserver functionality;
 - A command line tool to test availability of a given Whisper mailserver (used to check uptime of the Status cluster).
 

@@ -134,7 +134,7 @@ site:
         title: Memulai
         description: 'Proyek open source kami'
         link: 'Panduan Kontributor'
-        status-react:
+        status-mobile:
           title: Status-Bereaksi
           description: 'Ditulis di Clojure - ini adalah tempat kami menangani interaksi antara Waku dan aplikasi; antara dompet, pengguna, dan Aplikasi Terdistribusi (DApp) apa pun yang ingin mereka akses; dan tempat logika UI berada.'
           link: 'Lihat Repositori'
@@ -142,7 +142,7 @@ site:
           title: Status-Go
           description: 'Ditulis di Perjalanan - ini adalah tempat semua logika blockchain, transaksi, dan pekerjaan klien ringan yang kita lakukan hidup.'
           link: 'Lihat Repositori'
-        open-issues-status-react:
+        open-issues-status-mobile:
           title: 'Buka Masalah Status-Bereaksi'
           link: 'Lihat semua masalah terbuka'
         open-issues-status-go:
@@ -569,7 +569,7 @@ site:
         description: 'Hardwallet Aman, Tanpa Kontak, Sumber Terbuka'
     pinned-repositories:
       title: 'Repositori yang Dipasang'
-      status-react:
+      status-mobile:
         title: status-bereaksi
         description: 'Sumber terbuka (gratis), OS seluler untuk Ethereum.'
       status-go:

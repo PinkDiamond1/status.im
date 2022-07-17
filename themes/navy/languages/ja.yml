@@ -134,16 +134,16 @@ site:
         title: はじめに
         description: 私たちのオープンソースプロジェクト
         link: コントリビュータガイド
-        status-react:
-          title: Status-React
+        status-mobile:
+          title: Status-Mobile
           description: 'Clojureで書かれています - ここではWakuとアプリ間のインタラクション、ウォレットとユーザとそれらがアクセスする分散型アプリ（DApp）間のインタラクション、そしてUIロジックがあります。'
           link: リポジトリを表示
         status-go:
           title: Status-Go
           description: 'Goで書かれています - これはすべてのブロックチェーンロジック、トランザクション、およびライトクライアントワークが行われる場所です。'
           link: リポジトリを表示
-        open-issues-status-react:
-          title: Status-Reactの未解決の問題
+        open-issues-status-mobile:
+          title: Status-Mobileの未解決の問題
           link: 未解決の問題をすべて表示
         open-issues-status-go:
           title: Status-Goの未解決の問題
@@ -335,7 +335,7 @@ site:
           blog: ブログ投稿
         dejavu:
           title: DejaVu社ベータ監査
-          commit: '2018年5月7日 - Status-goおよびStatus-reactリポジトリ（DejaVu社）'
+          commit: '2018年5月7日 - Status-goおよびStatus-Mobileリポジトリ（DejaVu社）'
           report: レポート
           blog: ブログ投稿
       content-11:
@@ -570,8 +570,8 @@ site:
         description: セキュア、非接触、オープンソースのハードウォレット
     pinned-repositories:
       title: 'Pinned リポジトリ'
-      status-react:
-        title: status-react
+      status-mobile:
+        title: status-mobile
         description: 無料でオープンソースのイーサリアムモバイルOS
       status-go:
         title: status-go

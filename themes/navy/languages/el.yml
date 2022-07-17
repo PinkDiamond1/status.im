@@ -134,7 +134,7 @@ site:
         title: Ξεκίνα
         description: 'Το έργο μας ανοιχτού κώδικα'
         link: 'Οδηγός συνεργατών'
-        status-react:
+        status-mobile:
           title: Κατάσταση-Αντιδρών
           description: 'Γράφτηκε στο Clojure - εδώ είναι που χειριζόμαστε τις αλληλεπιδράσεις μεταξύ του Waku και της εφαρμογής. μεταξύ του πορτοφολιού, του χρήστη και οποιασδήποτε κατανεμημένης εφαρμογής (DApp) στην οποία θέλουν να έχουν πρόσβαση. και όπου ζει η λογική της διεπαφής χρήστη.'
           link: 'Προβολή αποθετηρίου'
@@ -142,7 +142,7 @@ site:
           title: Status-Go
           description: 'Γράφτηκε στο Go - εδώ είναι όπου όλη η λογική του blockchain, οι συναλλαγές και η ελαφριά δουλειά του πελάτη ζούμε.'
           link: 'Προβολή αποθετηρίου'
-        open-issues-status-react:
+        open-issues-status-mobile:
           title: 'Άνοιγμα κατάστασης ζητημάτων-αντιδράσεις'
           link: 'Δείτε όλα τα ανοιχτά ζητήματα'
         open-issues-status-go:
@@ -335,7 +335,7 @@ site:
           blog: ανάρτηση
         dejavu:
           title: 'Έλεγχος Deja Vu Beta'
-          commit: '07 Μαΐου 2018 - Repos Status-go και Status-react με την Deja Vu'
+          commit: '07 Μαΐου 2018 - Repos Status-go και Status-Mobile με την Deja Vu'
           report: 'κανω ΑΝΑΦΟΡΑ'
           blog: ανάρτηση
       content-11:
@@ -569,7 +569,7 @@ site:
         description: 'Ασφαλές, χωρίς επαφή, Hardwallet ανοιχτού κώδικα'
     pinned-repositories:
       title: 'Καρφιτσωμένα αποθετήρια'
-      status-react:
+      status-mobile:
         title: κατάσταση-αντιδρά
         description: 'Ένα δωρεάν (ελεύθερο) ανοιχτού κώδικα, φορητό λειτουργικό σύστημα για Ethereum.'
       status-go:

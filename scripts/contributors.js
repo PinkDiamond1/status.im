@@ -12,7 +12,7 @@ const getContributorsList = async (url) => {
 
 const saveContributors = async (outFilePath) => {
 
-    let dataStatusReact = await getContributorsList('https://api.github.com/repos/status-im/status-react/contributors?per_page=30')
+    let dataStatusReact = await getContributorsList('https://api.github.com/repos/status-im/status-mobile/contributors?per_page=30')
     let dataStatusGo = await getContributorsList('https://api.github.com/repos/status-im/status-go/contributors?per_page=30')
     
     let result = dataStatusReact.concat(dataStatusGo);

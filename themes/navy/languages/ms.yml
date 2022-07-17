@@ -134,7 +134,7 @@ site:
         title: Bermula
         description: 'Projek sumber terbuka kami'
         link: 'Panduan Penyumbang'
-        status-react:
+        status-mobile:
           title: Status-Reaksi
           description: 'Ditulis dalam Clojure - di sinilah kita menangani interaksi antara Waku dan aplikasi; antara dompet, pengguna dan mana-mana Aplikasi Terdistribusi (DApp) yang ingin mereka akses; dan di mana logik UI tinggal.'
           link: 'Lihat Repositori'
@@ -142,7 +142,7 @@ site:
           title: Status-Go
           description: 'Ditulis dalam Go - di sinilah semua logik, urus niaga, dan pelanggan ringan blockchain berfungsi dengan baik.'
           link: 'Lihat Repositori'
-        open-issues-status-react:
+        open-issues-status-mobile:
           title: 'Status Isu Terbuka-React'
           link: 'Lihat semua isu terbuka'
         open-issues-status-go:
@@ -335,7 +335,7 @@ site:
           blog: 'catatan blog'
         dejavu:
           title: 'Audit Deja Vu Beta'
-          commit: '07 Mei 2018 - Repo Status-go dan Status-react dengan Deja Vu'
+          commit: '07 Mei 2018 - Repo Status-go dan Status-Mobile dengan Deja Vu'
           report: lapor
           blog: 'catatan blog'
       content-11:
@@ -569,7 +569,7 @@ site:
         description: 'Hardwallet Sumber Terbuka yang Selamat, Tanpa Kontak'
     pinned-repositories:
       title: 'Repositori yang Disematkan'
-      status-react:
+      status-mobile:
         title: 'status-bertindak balas'
         description: 'OS mudah alih (percuma) sumber terbuka, OS mudah alih untuk Ethereum.'
       status-go:

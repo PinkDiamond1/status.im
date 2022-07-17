@@ -15,7 +15,7 @@ layout: landingpage
       1. Download the app and join our community. We'd love to see you there. 
     </p>
     <p>
-      2. We're an Open Source project, so you can check out our repositories and <a href="https://github.com/status-im">contribute code here</a>. Look for the label: <a href="https://github.com/status-im/status-react/labels/good%20first%20issue" >"good first issue"</a> to get started.
+      2. We're an Open Source project, so you can check out our repositories and <a href="https://github.com/status-im">contribute code here</a>. Look for the label: <a href="https://github.com/status-im/status-mobile/labels/good%20first%20issue" >"good first issue"</a> to get started.
     </p>
     <p>
       3. Complete one of our <a href="https://gitcoin.co/explorer?network=mainnet&idx_status=open&keywords=status.im&order_by=-web3_created">bounties listed on gitcoin</a>
@@ -44,8 +44,8 @@ layout: landingpage
           <img class="mx-auto h-20" src="/technical/img/lp-icon-find.svg">
           <div class="mt-48 text-gray-500 font-special font-semibold hover:text-primary-base transition-all duration-200 linear text-lg">
             <a href="https://gitcoin.co/explorer?network=mainnet&keywords=status&order_by=-web3_created" target="_blank" class="text-gray-500 font-special font-semibold hover:text-primary-base transition-all duration-200 linear text-lg inline-block">Use Gitcoin</a>
-            <a href="https://github.com/status-im/status-react/issues?utf8=%E2%9C%93&q=is%3Aopen+label%3A%22good+first+issue%22+label%3A%22bug%22+label%3A%22low-priority%22+" target="_blank" class="text-gray-500 font-special font-semibold hover:text-primary-base transition-all duration-200 linear text-lg inline-block mt-12">Find suitable bugs</a>
-            <a href="https://github.com/status-im/status-react/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+keyboard+android" target="_blank" class="text-gray-500 font-special font-semibold hover:text-primary-base transition-all duration-200 linear text-lg inline-block mt-12">Build the stuff you need</a>
+            <a href="https://github.com/status-im/status-mobile/issues?utf8=%E2%9C%93&q=is%3Aopen+label%3A%22good+first+issue%22+label%3A%22bug%22+label%3A%22low-priority%22+" target="_blank" class="text-gray-500 font-special font-semibold hover:text-primary-base transition-all duration-200 linear text-lg inline-block mt-12">Find suitable bugs</a>
+            <a href="https://github.com/status-im/status-mobile/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+keyboard+android" target="_blank" class="text-gray-500 font-special font-semibold hover:text-primary-base transition-all duration-200 linear text-lg inline-block mt-12">Build the stuff you need</a>
           </div>
         </div>
       </div>

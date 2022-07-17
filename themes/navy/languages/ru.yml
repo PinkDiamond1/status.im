@@ -134,15 +134,15 @@ site:
         title: Начать
         description: 'Наш проект с открытым исходным кодом'
         link: 'Гайд по содействию'
-        status-react:
-          title: Status-React
+        status-mobile:
+          title: Status-Mobile
           description: 'Написано на Clojure - здесь мы работаем с взаимодействиями между Waku и приложением; между кошельком, пользователем и любым распределенным приложением (DApp), к которому они хотят получить доступ; и где находится логика пользовательского интерфейса.'
           link: 'Посмотреть репозиторий'
         status-go:
           title: Status-Go
           description: 'Написано на Go - это то место, где живет вся логика, транзакции и легкая клиентская работа блокчейна.'
           link: 'Посмотреть репозиторий'
-        open-issues-status-react:
+        open-issues-status-mobile:
           title: 'Открытые вопросы Status -Реакция'
           link: 'Посмотреть все открытые вопросы'
         open-issues-status-go:
@@ -335,7 +335,7 @@ site:
           blog: 'запись в блоге'
         dejavu:
           title: 'Deja Vu Beta Audit'
-          commit: '07 мая 2018 - Репозиторий Status-go и Status-react с Deja Vu'
+          commit: '07 мая 2018 - Репозиторий Status-go и Status-Mobile с Deja Vu'
           report: отчёт
           blog: 'запись в блоге'
       content-11:
@@ -570,8 +570,8 @@ site:
         description: 'Надежный, бесконтактный, кошелек с открытым исходным кодом'
     pinned-repositories:
       title: 'Закрепленные репозитории'
-      status-react:
-        title: Status-React
+      status-mobile:
+        title: Status-Mobile
         description: 'Бесплатная (свободная) мобильная ОС с открытым исходным кодом для Ethereum.'
       status-go:
         title: Status-Go

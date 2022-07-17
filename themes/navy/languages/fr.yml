@@ -123,16 +123,16 @@ site:
         title: Démarrer
         description: 'Notre projet open source'
         link: 'Guide du contributeur'
-        status-react:
-          title: Status-React
+        status-mobile:
+          title: Status-Mobile
           description: 'Écrit dans Clojure - c''est là que nous traitons les interactions entre Whisper et l''application; entre le portefeuille, l''utilisateur et toute application distribuée (DApp) qu''il souhaite accéder; et où vit la logique de l''interface de travail.'
           link: 'Afficher Le Dépôt'
         status-go:
           title: Status-Go
           description: 'Écrit en Go - c''est là que toute la logique blockchain, les transactions, et le travail léger client que nous faisons des vies.'
           link: 'Afficher Le Dépôt'
-        open-issues-status-react:
-          title: 'Problèmes en suspens Status-React'
+        open-issues-status-mobile:
+          title: 'Problèmes en suspens Status-Mobile'
           link: 'Afficher toutes les questions ouvertes'
         open-issues-status-go:
           title: 'Questions ouvertes Status-Go'
@@ -308,7 +308,7 @@ site:
           blog: 'article de blog'
         dejavu:
           title: 'Audit de Déjà Vu Beta'
-          commit: '07 mai 2018 - Référentiels de Status-go et Status-react avec Deja Vu'
+          commit: '07 mai 2018 - Référentiels de Status-go et Status-Mobile avec Deja Vu'
           report: rapport
           blog: 'article de blog'
       content-11:
@@ -531,8 +531,8 @@ site:
         description: 'Porte-monnaie électronique sécurisé, sans contact et open source'
     pinned-repositories:
       title: 'Dépôts épinglés'
-      status-react:
-        title: status-react
+      status-mobile:
+        title: status-mobile
         description: 'Un système d''exploitation gratuit (libre) open source et mobile OS pour Ethereum.'
       status-go:
         title: status-go

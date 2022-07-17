@@ -134,16 +134,16 @@ site:
         title: Magsimula
         description: 'Ang aming bukas na pagkukunan o open source na proyekto'
         link: 'Gabay ng Kontribyutor'
-        status-react:
-          title: Status-React
+        status-mobile:
+          title: Status-Mobile
           description: 'Nakasulat sa Clojure - ito ay kung saan pinangangasiwaan namin ang mga pakikipag-ugnayan sa pagitan ng Waku at ang app; sa pagitan ng pitaka, ang gumagamit at anumang ipinamahaging Application (DApp) na nais nilang ma-access; at kung saan makita ang logic ng UI.'
           link: 'Tingnan ang Repository'
         status-go:
           title: Status-Go
           description: 'Nakasulat sa Go - ang lahat ng narito kung saan ang mga blockchain logic, transaksyon, at magaan na kliyente na ginagawa namin buhay.'
           link: 'Tingnan ang Repository'
-        open-issues-status-react:
-          title: 'Buksan ang mga Issue sa Status-React'
+        open-issues-status-mobile:
+          title: 'Buksan ang mga Issue sa Status-Mobile'
           link: 'Tingnan ang lahat ng mga bukas na isyu'
         open-issues-status-go:
           title: 'Buksan ang mga Issue sa Status-Go'
@@ -335,7 +335,7 @@ site:
           blog: 'post ng blog'
         dejavu:
           title: 'Deja Vu Beta Audit'
-          commit: 'Mayo 07, 2018 - Status-go at Status-react repost kasama ang Deja Vu'
+          commit: 'Mayo 07, 2018 - Status-go at Status-Mobile repost kasama ang Deja Vu'
           report: report
           blog: 'post ng blog'
       content-11:
@@ -570,8 +570,8 @@ site:
         description: 'Secure, Makipag-ugnay, Buksan ang Pinagmulan Hardwallet'
     pinned-repositories:
       title: 'Mga naka-pin na Repository'
-      status-react:
-        title: status-react
+      status-mobile:
+        title: status-mobile
         description: 'Mga libre at bukas na pagkukunan, mobile OS para sa Ethereum'
       status-go:
         title: status-go

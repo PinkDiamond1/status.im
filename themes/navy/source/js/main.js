@@ -267,10 +267,10 @@ $(document).ready(function($) {
 
     var htmlReact = '';
 
-    if (typeof Cookies.get('open-issues-react') !== 'undefined') {
-      $('.open-issues-react').append(localStorage.getItem('open-issues-react'));
+    if (typeof Cookies.get('open-issues-status-mobile') !== 'undefined') {
+      $('.open-issues-status-mobile').append(localStorage.getItem('open-issues-status-mobile'));
     } else {
-      fetch('https://api.github.com/repos/status-im/status-react/issues?sort=created&per_page=30')
+      fetch('https://api.github.com/repos/status-im/status-mobile/issues?sort=created&per_page=30')
         .then(
           function(response) {
             if (response.status !== 200) {
@@ -310,10 +310,10 @@ $(document).ready(function($) {
                 }
               });
 
-              localStorage.removeItem('open-issues-react');
-              localStorage.setItem('open-issues-react', htmlReact);
-              Cookies.set('open-issues-react', true, { expires: 1 });
-              $('.open-issues-react').append(htmlReact);
+              localStorage.removeItem('open-issues-status-mobile');
+              localStorage.setItem('open-issues-status-mobile', htmlReact);
+              Cookies.set('open-issues-status-mobile', true, { expires: 1 });
+              $('.open-issues-status-mobile').append(htmlReact);
 
             });
 
@@ -326,8 +326,8 @@ $(document).ready(function($) {
 
     var htmlGo = '';
 
-    if (typeof Cookies.get('open-issues-go') !== 'undefined') {
-      $('.open-issues-go').append(localStorage.getItem('open-issues-go'));
+    if (typeof Cookies.get('open-issues-status-go') !== 'undefined') {
+      $('.open-issues-status-go').append(localStorage.getItem('open-issues-status-go'));
     } else {
       fetch('https://api.github.com/repos/status-im/status-go/issues?sort=created&per_page=30')
         .then(
@@ -370,10 +370,10 @@ $(document).ready(function($) {
                 }
               });
 
-              localStorage.removeItem('open-issues-go');
-              localStorage.setItem('open-issues-go', htmlGo);
-              Cookies.set('open-issues-go', true, { expires: 1 });
-              $('.open-issues-go').append(htmlGo);
+              localStorage.removeItem('open-issues-status-go');
+              localStorage.setItem('open-issues-status-go', htmlGo);
+              Cookies.set('open-issues-status-go', true, { expires: 1 });
+              $('.open-issues-status-go').append(htmlGo);
 
             });
 

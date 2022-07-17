@@ -7,7 +7,7 @@ title: How To Add Your Own Custom Network To Status
 
 This article lists and explains all the steps needed to add a new network to Status (e.g. side chain or a test network). We want anyone, on any Ethereum-like network to have direct access to a powerful mobile client that they can just use (TM) without having to worry about anything more than providing an alternative RPC endpoint. 
 
-We have already [implemented this with POA](https://github.com/status-im/status-react/issues/6250), for both the xDAI and POA sidechains, and look forward to a future where a thousand blockchains bloom, all from your pocket.
+We have already [implemented this with POA](https://github.com/status-im/status-mobile/issues/6250), for both the xDAI and POA sidechains, and look forward to a future where a thousand blockchains bloom, all from your pocket.
 
 Overview:
 
@@ -72,6 +72,6 @@ If the native currency icon is different that the default Ether icon, then the r
 
 ## 5. add a migration to add new networks to existing accounts upon upgrade
 
-Correction - we'll change the model in such a way so that we can remove the need for this migration. See [#6491](https://github.com/status-im/status-react/issues/6491)
+Correction - we'll change the model in such a way so that we can remove the need for this migration. See [#6491](https://github.com/status-im/status-mobile/issues/6491)
 
 That's it! If you have any questions or remarks, please find us in the [status developer channel](https://join.status.im/chat/public/status-core-devs). Hopefully, we'll simplify this process soon enough.

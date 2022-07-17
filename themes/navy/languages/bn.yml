@@ -134,7 +134,7 @@ site:
         title: 'শুরু করুন'
         description: 'আমাদের ওপেন সোর্স প্রকল্প'
         link: 'অবদানকারী গাইড'
-        status-react:
+        status-mobile:
           title: 'Status প্রতিক্রিয়া'
           description: 'ক্লোজুরে লেখা - এখানেই আমরা ওয়াকু এবং অ্যাপের মধ্যে মিথস্ক্রিয়া পরিচালনা করি; ওয়ালেট, ব্যবহারকারী এবং যেকোন ডিস্ট্রিবিউটেড অ্যাপ্লিকেশন (DApp) এর মধ্যে যা তারা অ্যাক্সেস করতে চায়; এবং যেখানে UI যুক্তি বাস করে।'
           link: 'সংগ্রহস্থল দেখুন'
@@ -142,7 +142,7 @@ site:
           title: 'Status গো'
           description: 'Go-তে লেখা - এখানেই সমস্ত ব্লকচেইন যুক্তি, লেনদেন এবং হালকা ক্লায়েন্টের কাজ আমরা করি।'
           link: 'সংগ্রহস্থল দেখুন'
-        open-issues-status-react:
+        open-issues-status-mobile:
           title: 'ওপেন ইস্যুগুলির Status-প্রতিক্রিয়া'
           link: 'সব খোলা সমস্যা দেখুন'
         open-issues-status-go:
@@ -575,7 +575,7 @@ site:
         description: 'সুরক্ষিত, যোগাযোগহীন, ওপেন সোর্স হার্ডওয়ালেট'
     pinned-repositories:
       title: 'পিনযুক্ত সংগ্রহস্থল'
-      status-react:
+      status-mobile:
         title: 'Status প্রতিক্রিয়া'
         description: 'একটি বিনামূল্যে (libre) ওপেন সোর্স, Ethereum জন্য মোবাইল অপারেটিং সিস্টেম।'
       status-go:

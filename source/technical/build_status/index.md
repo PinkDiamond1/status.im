@@ -22,8 +22,8 @@ sudo apt install -y git curl make
 ### 1. Clone the repository
 
 ```sh
-git clone https://github.com/status-im/status-react
-cd status-react
+git clone https://github.com/status-im/status-mobile
+cd status-mobile
 ```
 
 ### 2. Install Dependencies
@@ -36,9 +36,9 @@ We use [Nix](https://nixos.org/nix) package manager to create custom shells with
 </br>
 If it doesn't work for you on another Linux distribution, please install all dependencies manually based on the list below.
 
-Most `Makefile` targets call [a script](https://github.com/status-im/status-react/blob/develop/nix/scripts/shell.sh) which will implicitly install all the necessary tools and dependencies. To do this it auto-accepts the Android SDK license agreements.
+Most `Makefile` targets call [a script](https://github.com/status-im/status-mobile/blob/develop/nix/scripts/shell.sh) which will implicitly install all the necessary tools and dependencies. To do this it auto-accepts the Android SDK license agreements.
 
-The [pre-defined Nix shells](https://github.com/status-im/status-react/blob/develop/nix/shells.nix) install the following tools:
+The [pre-defined Nix shells](https://github.com/status-im/status-mobile/blob/develop/nix/shells.nix) install the following tools:
 
 * Go, OpenJDK 8, Python 2.7
 * Clojure and shadow-cljs
@@ -54,9 +54,9 @@ The [pre-defined Nix shells](https://github.com/status-im/status-react/blob/deve
 
 __WARNING:__ Downloading all of these can take more than an hour depending on your machine and internet speed.
 
-__WARNING:__ On macOS, the build environment is set up to rely on XCode 11.5. To allow an older version edit `version` in [nix/overlay.nix](https://github.com/status-im/status-react/blob/develop/nix/overlay.nix) file (`xcodeWrapper`).
+__WARNING:__ On macOS, the build environment is set up to rely on XCode 11.5. To allow an older version edit `version` in [nix/overlay.nix](https://github.com/status-im/status-mobile/blob/develop/nix/overlay.nix) file (`xcodeWrapper`).
 
-For more information about our Nix setup [read our README](https://github.com/status-im/status-react/blob/develop/nix/README.md) or [watch our Nix presentations](https://github.com/status-im/status-react/blob/develop/nix/README.md#resources).
+For more information about our Nix setup [read our README](https://github.com/status-im/status-mobile/blob/develop/nix/README.md) or [watch our Nix presentations](https://github.com/status-im/status-mobile/blob/develop/nix/README.md#resources).
 
 ### 3. Running development processes
 
@@ -133,11 +133,11 @@ make shell TARGET=android
 ```sh
 make shell TARGET=ios
 ```
-You can read more about our Nix shells [in the docs](https://github.com/status-im/status-react/blob/develop/nix/DETAILS.md#shells).
+You can read more about our Nix shells [in the docs](https://github.com/status-im/status-mobile/blob/develop/nix/DETAILS.md#shells).
 
 ### Building and using forks of status-go
 
-If you need to use a branch of a `status-go` fork as a dependency of `status-react`, you specify it using an update script:
+If you need to use a branch of a `status-go` fork as a dependency of `status-mobile`, you specify it using an update script:
 
 ```sh
 scripts/update-status-go.sh <rev>
@@ -149,7 +149,7 @@ If you are using a GitHub fork of `status-go` repo, export the `STATUS_GO_OWNER`
 
 ### Building local `status-go` repository
 
-If instead you need to use a locally checked-out `status-go` repository as a dependency of `status-react`, you can achieve that by defining the `STATUS_GO_SRC_OVERRIDE`
+If instead you need to use a locally checked-out `status-go` repository as a dependency of `status-mobile`, you can achieve that by defining the `STATUS_GO_SRC_OVERRIDE`
 environment variable:
 
 ```sh
@@ -192,7 +192,7 @@ Some developers are experiencing errors compiling for iOS on Xcode 10 on macOS M
 ```log
 error: Build input file cannot be found:
 
-'status-react/node_modules/react-native/third-party/double-conversion-1.1.6/src/cached-powers.cc'
+'status-mobile/node_modules/react-native/third-party/double-conversion-1.1.6/src/cached-powers.cc'
 ```
 
 To fix similar errors run the following commands:

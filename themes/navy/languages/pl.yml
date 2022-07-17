@@ -134,16 +134,16 @@ site:
         title: Rozpocznij
         description: 'Nasz projekt open source'
         link: 'Przewodnik dla współtwórców'
-        status-react:
-          title: Status-React
+        status-mobile:
+          title: Status-Mobile
           description: 'Napisany w Clojure - to tutaj obsługujemy interakcje pomiędzy Waku i aplikacją; pomiędzy portfelem, użytkownikiem i każdą aplikacją rozproszoną (dApp), do której chcą uzyskać dostęp; oraz gdzie znajduje się logika Interfejsu Użytkownika.'
           link: 'Zobacz Repozytorium'
         status-go:
           title: Status-Go
           description: 'Napisany w Go - to tutaj mieszka cała logika blockchain, transakcje i praca light client, którą wykonujemy.'
           link: 'Zobacz Repozytorium'
-        open-issues-status-react:
-          title: 'Otwarte problemy Status-React'
+        open-issues-status-mobile:
+          title: 'Otwarte problemy Status-Mobile'
           link: 'Wyświetl wszystkie otwarte problemy'
         open-issues-status-go:
           title: 'Otwarte problemy Status-Go'
@@ -335,7 +335,7 @@ site:
           blog: 'wpis na blogu'
         dejavu:
           title: 'Audyt beta Deja Vu'
-          commit: '7 maja 2018 r. - Status-go i Status-react, repozytoria z Deja Vu'
+          commit: '7 maja 2018 r. - Status-go i Status-Mobile, repozytoria z Deja Vu'
           report: zgłoś
           blog: 'wpis na blogu'
       content-11:
@@ -570,8 +570,8 @@ site:
         description: 'Bezpieczny, bezdotykowy portfel sprzętowy o otwartym kodzie źródłowym'
     pinned-repositories:
       title: 'Przypięte repozytoria'
-      status-react:
-        title: status-react
+      status-mobile:
+        title: status-mobile
         description: 'Darmowy (libre) open source, mobilny system operacyjny dla Ethereum.'
       status-go:
         title: status-go
