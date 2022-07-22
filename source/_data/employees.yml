@@ -271,12 +271,6 @@ employees:
     customStatusPublicKey: '0x0412cc51336b215c1a12a5570337983e75c84d19186365965d2265378ff069b5eb7d44427cdba294dab9ec51334eea71c39c2226f014bf435630a36608fca5cc60'
     customGitHubusername: qoqobolo
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=eb671ed2f463fb880d601e833abc0708'
-  - id: '184'
-    firstName: Sacha
-    workEmail: sacha@status.im
-    customStatusPublicKey: Glittering Tubby Blackbird
-    customGitHubusername: sachayves
-    photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=75772b6c2b4fc059e1bf46bdeda91f0b'
   - id: '185'
     firstName: Johannes
     workEmail: johannes@status.im
@@ -574,7 +568,7 @@ employees:
   - id: '272'
     firstName: Elina
     workEmail: elina@status.im
-    customStatusPublicKey: '0x043819f1d49ae3f67d80c538d3de9f5adc02b32c94b9098c9c3b8051ac349b4dcc0da4ed3c0e02ec8ccc61e22d767909575dafd452024b3fbad5403d754b9875ef'
+    customStatusPublicKey: zQ3shd9UaQYUNV9ngEiZDK7pBgQ8XCHxY394xTzQGiUGZYeg1
     customGitHubusername: elina2015
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=33e19f0f7d1a63f9e498a180f2ed1764'
   - id: '273'
@@ -742,6 +736,6 @@ employees:
   - id: '303'
     firstName: Erik
     workEmail: erikseppanen@status.im
-    customStatusPublicKey: null
-    customGitHubusername: null
+    customStatusPublicKey: '0x048a6773339d11ccf5fd81677b7e54daeec544a1287bd92b725047ad6faa9a9b9f8ea86ed5a226d2a994f5f46d0b43321fd8de7b7997a166e67905c8c73cd37cea'
+    customGitHubusername: erikseppanen
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=80790967783132053e03ad690180e8cd'
