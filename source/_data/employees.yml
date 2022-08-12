@@ -577,12 +577,6 @@ employees:
     customStatusPublicKey: '0x042f0d47dc876ebc2dff227582a940f65a4461848e0518b9f8db84930e97f1661817c43c698522d7b06b0a070c0e9da32fd5075d02b837a33503c9454d9b437ec9'
     customGitHubusername: siddarthkay
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=d40e094cd5b4d9c3d0d6ae9d1f3dc692'
-  - id: '277'
-    firstName: Olufemi
-    workEmail: femi@status.im
-    customStatusPublicKey: null
-    customGitHubusername: null
-    photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=42f2997cc539917a8e2ffd89124d021b'
   - id: '278'
     firstName: Felicio
     workEmail: felicio@status.im
