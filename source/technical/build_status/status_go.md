@@ -22,7 +22,7 @@ The project output can take several forms:
 
 ### 1. Requirements
 
-- Go version >=1.13 (we use Go Modules, version 1.14 is recommended),
+- Go version `>=1.18` (but check `go.mod` anyway).
 - Docker (only if cross-compiling).
 
 ### 2. Clone the repository
