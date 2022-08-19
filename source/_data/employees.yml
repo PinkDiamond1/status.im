@@ -721,12 +721,18 @@ employees:
     customStatusPublicKey: null
     customGitHubusername: null
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=6500f40873e6ebd3fb3008b7fddc7474'
+  - id: '306'
+    firstName: Fabio
+    workEmail: fabiomorais@status.im
+    customStatusPublicKey: null
+    customGitHubusername: null
+    photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=93057273313fa40da3a7e9ef5d19d400'
   - id: '308'
     firstName: Jamie
-    workEmail: jamiecaprani@status.im
+    workEmail: jamiec@status.im
     customStatusPublicKey: null
     customGitHubusername: J-Son89
-    photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=d4a2a17e2bc828d718e8d5f952e8a233'
+    photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=a6b1b0df0dc9c39c064ff4411a535668'
   - id: '309'
     firstName: Marcin
     workEmail: marcin@status.im
@@ -739,3 +745,9 @@ employees:
     customStatusPublicKey: null
     customGitHubusername: tavurth
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=34776786b59cb003203433ff4dcfe3a5'
+  - id: '313'
+    firstName: Alberto
+    workEmail: albertorendo@status.im
+    customStatusPublicKey: null
+    customGitHubusername: AlbertoSoutullo
+    photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=8c8ad3d1f46a9214d685cfc391933284'
