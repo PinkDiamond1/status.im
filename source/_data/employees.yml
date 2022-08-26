@@ -700,8 +700,8 @@ employees:
   - id: '301'
     firstName: Julia
     workEmail: julia@status.im
-    customStatusPublicKey: null
-    customGitHubusername: null
+    customStatusPublicKey: '0x0474dc84661326d1ad15223225fbdd503fce27e234be7561e6874f8e2930eed774aa43eda12eff3246c6a9c524ee4e1adaf0180768e23088e4b075d1c7ebdc5488'
+    customGitHubusername: JuliaIskanderian
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=5e7099df48eb6563aaeed6b4b1409c8b'
   - id: '303'
     firstName: Erik
@@ -745,9 +745,33 @@ employees:
     customStatusPublicKey: null
     customGitHubusername: tavurth
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=34776786b59cb003203433ff4dcfe3a5'
+  - id: '311'
+    firstName: Jack
+    workEmail: jack@status.im
+    customStatusPublicKey: null
+    customGitHubusername: null
+    photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=3e9255cdac3c58d61cfa12300d674a15'
   - id: '313'
     firstName: Alberto
     workEmail: albertorendo@status.im
     customStatusPublicKey: null
     customGitHubusername: AlbertoSoutullo
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=8c8ad3d1f46a9214d685cfc391933284'
+  - id: '314'
+    firstName: Aaryamann
+    workEmail: aaryamann@status.im
+    customStatusPublicKey: Great Acceptable Dowitcher
+    customGitHubusername: rymnc
+    photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=139e6f2c0d2b6b43e2d001c428a737f2'
+  - id: '315'
+    firstName: Ícaro
+    workEmail: icaro@status.im
+    customStatusPublicKey: '0x04bd17bef15257b4a88ca7ee65e1ba003c1cef5c2e4251f2fe37ecdf16e0619de9ab762a78081376f63121fda3a980b26bb9801cf0b7405fbe2c1e4bbbefc5e7f4'
+    customGitHubusername: ilmotta
+    photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=afddf3c3d3e079f6906bbaa9083f4b7f'
+  - id: '318'
+    firstName: Rashawn
+    workEmail: rashawn@status.im
+    customStatusPublicKey: '0x049f027169e09483f5b4bcf57227f7ae5c675f6a6ee7d63f042df672377f125f3269015eb8a622f3154457bf55c45ebf13caf52caf65a86287d2d7c0664da76e0d'
+    customGitHubusername: yqrashawn
+    photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=7070c89ea702e0b2a496b920af9ddcf7'
