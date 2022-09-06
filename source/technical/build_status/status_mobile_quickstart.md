@@ -15,7 +15,7 @@ If *peer-to-peer electronic payment systems* are really going to change the ways
 
 Status-Mobile is where most of what might traditionally be called the “frontend” logic sits (everything to do with UI components and interactions, chats, views etc.) and status-go is where all the heavier blockchain and backend logic sits. Status-go can be compiled as a stand alone library, and gets included as a static dependency in status-mobile at build time.
 
-Status-Mobile is actually written in Clojure &amp; ClojureScript, which is a Lisp-like language that can be compiled down to React Native, so that we only have to maintain one codebase for Android, iOS and our desktop app.
+Status-Mobile is actually written in Clojure &amp; ClojureScript, which is a Lisp-like language that can be compiled down to React Native, so that we only have to maintain one codebase for Android and iOS.
 
 Clojure / CLJS is one of the most performant frontend tools around; enabling the greatest productivity, with the fewest lines of code. However, a lot of that is lost in the compilation down to React Native, so what are our real motivations?
 
