@@ -100,7 +100,7 @@ site:
       title: "Join us"
     core-contributors:
       title: "Core Contributors"
-      description: "Status is not a traditional organization. We don't have hierarchy, there are no managers, and we encourage location independence. We're all here to achieve our mission, and we have the freedom to choose how we do it."
+      description: "Status was Co-founded by <a class='link' href='https://twitter.com/0xc1c4da' target='_blank'>Jarrad Hope</a> and <a class='link' href='https://twitter.com/carlbennetts' target='_blank'>Carl Bennetts</a>, but is built by a global community. Status is not a traditional organization. We don't have hierarchy, there are no managers, and we encourage location independence. We're all here to achieve our mission, and we have the freedom to choose how we do it."
       link-1: "Join us. See all open positions"
       link-2: "Learn more about life at Status"
   snt:

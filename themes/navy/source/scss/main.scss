@@ -246,6 +246,11 @@ td:nth-child(1) {
   background-color: #EAECEF;
 }
 
+.link {
+  color: #4360DF;
+  text-decoration: none;
+}
+
 @media (max-width: 500px) {
   .status-node-table {
     overflow-x: scroll;
